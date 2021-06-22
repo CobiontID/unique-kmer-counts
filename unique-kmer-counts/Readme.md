@@ -4,7 +4,7 @@ Counts distinct k-mers for each sequence record in a file and divides it by the 
 
 ## Usage
 
-Input: Multi-entry fasta file
+Input: Multi-entry fasta file with nucleotide sequences
 
 `unique-kmers --file <fasta file> --klength <k-mer length> --out <output file>`
 
