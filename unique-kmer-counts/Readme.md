@@ -15,7 +15,7 @@ Rust (see https://www.rust-lang.org/tools/install)
 
 - needletail = "0.4"
 - fnv = "1.0.7"
-- csv
-- clap
+- csv = "1.1"
+- clap = "2.33"
 
 To compile, run `cargo build --release`
