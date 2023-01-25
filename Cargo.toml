@@ -1,6 +1,6 @@
 [package]
 name = "unique-kmers"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Claudia C. Weber"]
 edition = "2018"
 
@@ -10,4 +10,5 @@ edition = "2018"
 needletail = "0.4"
 fnv = "1.0.7"
 csv = "1.1"
-clap = "2.33"
+clap ="3"
+itertools = "0.10.0"
