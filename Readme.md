@@ -2,7 +2,7 @@
 
 This program calculates the number of distinct k-mers for each sequence record in a fasta file and divides it by the total number of k-mers in that record. Provided the number of possible distinct k-mers (4^k) is at least as large as the sequence length, this gives a measure of how diverse the k-mer composition of the sequence is. Repetitive sequences or sequences with restricted nucleotide composition, for example, will tend to have low values.
 
-The program, which is writtern in Rust, is based on [Needletail](https://github.com/onecodex/needletail)'s efficient FASTA parser, making it efficient for large read sets.
+The program, which is writtern in Rust, is based on [Needletail](https://github.com/onecodex/needletail)'s fast FASTA parser, making it efficient for large read sets.
 
 ## Usage
 
