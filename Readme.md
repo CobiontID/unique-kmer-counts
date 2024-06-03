@@ -21,3 +21,6 @@ Note that k-mers will **not** be canonicalised. That is, each k-mer and its reve
 - Download the source code from this repository
 - Navigate to the directory containing `Cargo.toml`
 - Run `cargo build --release`. The resulting binary will be located in `./target/release/unique-kmers` unless otherwise specified.
+
+## Citation
+If you use this k-mer counter in your work, please cite https://www.biorxiv.org/content/10.1101/2024.05.30.596622v1
