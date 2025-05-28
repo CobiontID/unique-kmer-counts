@@ -23,4 +23,8 @@ Note that k-mers will **not** be canonicalised. That is, each k-mer and its reve
 - Run `cargo build --release`. The resulting binary will be located in `./target/release/unique-kmers` unless otherwise specified.
 
 ## Citation
-If you use this k-mer counter in your work, please cite https://www.biorxiv.org/content/10.1101/2024.05.30.596622v1
+If you use this k-mer counter in your work, please cite: https://doi.org/10.1093/g3journal/jkae187
+
+Bibtex:
+> @article{Weber_2024, title={Disentangling cobionts and contamination in long-read genomic data using sequence composition}, volume={14}, url={http://dx.doi.org/10.1093/g3journal/jkae187}, DOI={10.1093/g3journal/jkae187}, number={11}, journal={G3: Genes, Genomes, Genetics}, author={Weber, Claudia C}, year={2024} }
+
